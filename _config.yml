@@ -1,7 +1,7 @@
 # Site
 title:              끄적끄적
 bio:                주니어 개발자로 성장중
-description:        
+description:        주니어 개발자로 성장중
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -39,12 +39,12 @@ disqus_shortname:   jungbinn
 #bing-verify:
 #email:
 #twitter:            username
-facebook:           username
-github-url:         https://github.com/jungbinn 
+facebook:           jungbinn.park
+github-url:         jungbinn 
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
-instagram:          username
+instagram:          jungbinn_park
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
