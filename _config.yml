@@ -3,7 +3,7 @@ title:              끄적끄적
 bio:                주니어 개발자로 성장중
 description:        하루하루 성장하기
 reading_time:       true
-words_per_minute:   200
+words_per_minute:   100
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
@@ -26,13 +26,14 @@ sass:
   style:            compressed
 
 # Comments
+disqus: True
 disqus_shortname:   jungbinn
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
-  #analytics:
+  analytics: UA-124192658-1
   #verify:
   #ad-client:
   #ad-slot:
