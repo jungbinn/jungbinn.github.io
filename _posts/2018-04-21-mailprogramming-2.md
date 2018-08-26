@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: "매일 프로그래밍 2"
-date: 2018-08-19
+date: 2018-04-21
 excerpt: 
 tags: [매일 프로그래밍, 알고리즘, mailprogramming, algorithm]
 comments: true
