@@ -73,8 +73,8 @@ vector<struct interval> mergeInterval (vector<struct interval> intervals) {
 
 <br/>
 
-시간복잡도 O(nlog(n))  
-공간복잡도 O(n)
+**시간복잡도 O(nlog(n))**  
+**공간복잡도 O(n)**
 
 <br/>
 <br/>
