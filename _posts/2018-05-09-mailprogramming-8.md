@@ -40,32 +40,32 @@ O(n)에 풀기 위해서 첫 번째와 두 번째로 큰 값을 저장하면서 
 using namespace std;
 
 void secondLargest (vector<int> numbers) {
-	int first = INT_MIN;
-	int second = INT_MIN;
+    int first = INT_MIN;
+    int second = INT_MIN;
 
-	/* Corner case 1. */
-	if (numbers.size() < 2) {
-		cout << "Does not exist." << endl;
-		return;
-	}
+    /* Corner case 1. */
+    if (numbers.size() < 2) {
+        cout << "Does not exist." << endl;
+        return;
+    }
 
-	for (int i = 0; i < numbers.size(); i++) {
-		if (numbers[i] > first) {
-			second = first;
-			first = numbers[i];
-		}
-		else if (second < numbers[i] && numbers[i] < first) {
-			second = numbers[i];
+    for (int i = 0; i < numbers.size(); i++) {
+        if (numbers[i] > first) {
+            second = first;
+            first = numbers[i];
         }
-	}
+        else if (second < numbers[i] && numbers[i] < first) {
+            second = numbers[i];
+        }
+    }
 
-	/* Corner case 2. */
-	if (second == INT_MIN) {
-		cout << "Does not exist." << endl;
-		return;
-	}
+    /* Corner case 2. */
+    if (second == INT_MIN) {
+        cout << "Does not exist." << endl;
+        return;
+    }
 
-	cout << second << endl;
+    cout << second << endl;
 }
 ```
 
