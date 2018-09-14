@@ -11,10 +11,12 @@ comments: true
 
 arg max, arg min은 주어진 함수를 최대/최소로 만드는 x값을 구한다.
 
+<br/>
 
-$arg max f(x)$ : f(x)를 최대로 만드는 x값  
+\\(arg max f(x))\\ : f(x)를 최대로 만드는 x값  
   
-$arg min f(x)$ : f(x)를 최소로 만드는 x값  
+\\(arg min f(x))\\ : f(x)를 최소로 만드는 x값  
 
+<br/>
 
 max, min 함수와는 차이가 있다.
