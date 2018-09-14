@@ -13,12 +13,9 @@ arg max, arg min은 주어진 함수를 최대/최소로 만드는 x값을 구�
 
 <br/>
 
-\newcommand{\argmin}{\mathop{\mathrm{argmin}}
-\newcommand{\argmin}{\mathop{\mathrm{argmax}}
-
-\underset{x}{\mathrm{argmax}}: f(x)를 최대로 만드는 x값  
+arg max f(x): f(x)를 최대로 만드는 x값  
   
-\underset{x}{\mathrm{argmin}}: f(x)를 최소로 만드는 x값  
+arg min f(x): f(x)를 최소로 만드는 x값  
 
 <br/>
 
